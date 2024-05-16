@@ -1,0 +1,19 @@
+.header {
+  grid-area: h;
+  background-color: green;
+}
+
+.header img {
+  height: 60px;
+}
+
+.header span {
+  color: red;
+  float: right;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.header span:hover {
+  color: cornflowerblue;
+}

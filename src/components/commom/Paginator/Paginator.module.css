@@ -1,0 +1,45 @@
+.paginator {
+    margin: 10px;
+}
+.pageNumber {
+    border: 1px;
+    float: left;
+    width: 25px;
+    height: 23px;
+    text-align: center;
+    margin: 0px 5px 0px 5px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    background-color: burlywood;
+}
+
+.pageNumber:hover {
+    cursor: pointer;
+    background-color: chocolate;
+    transition-duration: 0.5s;
+    color: #4d2b2b;
+}
+
+
+.pageNumber.selectedPage {
+    background: black;
+    font-weight: bold;
+    color: #ff6500;
+}
+
+.prev {
+    float: left;
+    margin-right: 10px;
+}
+
+.prev:hover {
+    cursor: pointer;
+}
+
+.next:hover {
+    cursor: pointer;
+}
+
+.next {
+    margin-left: 10px;
+}

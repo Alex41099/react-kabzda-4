@@ -1,0 +1,9 @@
+.formControl {
+    border: solid red 2px;
+}
+
+.formControlSpan {
+    color: #c01010;
+    border: solid #c01010 2px;
+}
+
